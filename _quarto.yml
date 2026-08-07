@@ -1,0 +1,80 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "en/*.qmd"
+  resources:
+    - "docs/**"
+
+website:
+  title: "Eri KURODA"
+  site-url: https://eri-kuroda.com
+  favicon: icon.png
+  google-analytics: "G-QEV4HDLLG6"
+  navbar:
+    title: "Eri KURODA"
+    pinned: true
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Contact
+        href: contact.qmd
+    right:
+      - icon: globe
+        menu:
+          - text: 日本語
+            href: index.qmd
+          - text: English
+            href: en/index.qmd
+  page-footer:
+    center: '© Eri Kuroda, 2026. · <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener" aria-label="CC BY 4.0"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i> BY 4.0</a> · <a href="privacy.html">Privacy Policy</a>'
+
+format:
+  html:
+    theme:
+      - cosmo
+      - theme.scss
+    toc: false
+    anchor-sections: false
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:ital,wght@0,400;0,700;1,400&family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css">
+        <script>
+        // 英語ページ(/en/)ではナビのリンク先をEN版に切り替え、🌐メニューは対応ページへ飛ばす
+        document.addEventListener("DOMContentLoaded", () => {
+          const onEn = /\/en\//.test(location.pathname);
+          const pages = ["index.html", "research.html", "publications.html", "cv.html", "contact.html", "privacy.html"];
+          const base = location.pathname.split("/").pop() || "index.html";
+          if (onEn) {
+            document.querySelectorAll(".navbar a.nav-link").forEach((a) => {
+              const href = a.getAttribute("href") || "";
+              const name = href.split("/").pop();
+              if (href.startsWith("../") && pages.includes(name)) a.setAttribute("href", name);
+            });
+            const brand = document.querySelector(".navbar-brand");
+            if (brand) brand.setAttribute("href", "index.html");
+            document.querySelectorAll("a[href$='privacy.html']").forEach((a) => {
+              if (!a.getAttribute("href").includes("en/")) a.setAttribute("href", "privacy.html");
+            });
+          }
+          document.querySelectorAll(".navbar .dropdown-menu a.dropdown-item").forEach((a) => {
+            const label = a.textContent.trim();
+            if (pages.includes(base)) {
+              if (label === "日本語" && onEn) a.setAttribute("href", "../" + base);
+              if (label === "English" && !onEn) a.setAttribute("href", "en/" + base);
+            }
+          });
+        });
+        </script>

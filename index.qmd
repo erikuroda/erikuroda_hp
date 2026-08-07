@@ -1,0 +1,49 @@
+---
+title: ""
+pagetitle: "Eri KURODA｜黒田 彗莉"
+lang: ja
+page-layout: full
+toc: false
+---
+
+::: {.column-screen .home-section .sec-odd #about}
+::: {.ek-container}
+::: {.grid}
+::: {.g-col-12 .g-col-lg-4 .portrait-col}
+![](avatar.jpg){.avatar fig-alt="黒田 彗莉"}
+
+<h2 class="portrait-name">黒田 彗莉</h2>
+
+<div class="portrait-org">
+<a href="https://weblab.t.u-tokyo.ac.jp/" target="_blank" rel="noopener">東京大学 松尾・岩澤研究室</a><br>特任研究員
+</div>
+
+:::
+
+::: {.g-col-12 .g-col-lg-8 .bio-col}
+<h2 class="sec-title">Biography</h2>
+
+2025年にお茶の水女子大学で博士（理学）を取得しました。
+現在は、東京大学 松尾・岩澤研究室で特任研究員をしています。
+
+機械学習・深層学習を用いた世界モデルの研究に取り組んでいます。
+最近は、世界モデルにもとづいてロボットが実世界で実際に行動できるようになることに興味があります。
+特に、抽象的な行動表現の獲得や、はじめて見る物体・状況への汎化に取り組んでいます。
+
+<div class="bio-links">
+<a href="cv.html">CV</a> · <i class="far fa-caret-square-right"></i> <a href="https://researchmap.jp/erikuroda?lang=ja" target="_blank" rel="noopener">researchmap</a><span class="bio-sns"><a href="https://www.linkedin.com/in/erikuroda" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a><a href="https://x.com/erikuroda23" target="_blank" rel="noopener" aria-label="X"><i class="fab fa-x-twitter"></i></a><a href="https://orcid.org/0000-0001-6248-5056" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a><a href="https://scholar.google.co.jp/citations?user=ym-sVBkAAAAJ&hl=ja" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a></span>
+</div>
+:::
+:::
+:::
+:::
+
+::: {.column-screen .home-section .sec-even #news}
+::: {.ek-container}
+<h2 class="sec-title">News</h2>
+
+::: {.news-box}
+{{< include _content/news-ja.md >}}
+:::
+:::
+:::

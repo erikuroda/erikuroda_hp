@@ -1,0 +1,21 @@
+---
+title: Contact
+pagetitle: "Contact｜Eri KURODA"
+lang: ja
+toc: false
+---
+
+<ul class="contact-list">
+<li><i class="fas fa-envelope"></i>eri.kuroda [at] weblab.t.u-tokyo.ac.jp</li>
+<li><i class="fas fa-map-marker-alt"></i>7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan</li>
+</ul>
+
+<div class="map-embed">
+<iframe src="https://maps.google.com/maps?q=7-3-1+Hongo,+Bunkyo-ku,+Tokyo+113-8656&z=16&output=embed" loading="lazy" title="Map"></iframe>
+</div>
+
+## Links
+
+::: {.links-col}
+{{< include _content/links-ja.md >}}
+:::

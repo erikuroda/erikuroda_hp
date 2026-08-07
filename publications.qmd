@@ -1,0 +1,10 @@
+---
+title: Publications
+pagetitle: "Publications｜Eri KURODA"
+lang: ja
+toc: false
+---
+
+::: {.pub-list}
+{{< include _content/publications-ja.md >}}
+:::

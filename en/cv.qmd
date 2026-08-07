@@ -1,0 +1,31 @@
+---
+title: CV
+pagetitle: "CV｜Eri KURODA"
+lang: en
+toc: true
+toc-title: Contents
+---
+
+<div class="cv-embed">
+<iframe src="https://drive.google.com/file/d/1HgZEwz0MnqfjBRVS4j6TZ8gtHi4ZXbR8/preview" allow="autoplay" title="CV (PDF)"></iframe>
+</div>
+
+## Career
+
+{{< include ../_content/career-en.md >}}
+
+## Committees
+
+{{< include ../_content/committees-en.md >}}
+
+## Funds
+
+::: {.award-table}
+{{< include ../_content/funds-en.md >}}
+:::
+
+## Awards
+
+::: {.award-table}
+{{< include ../_content/awards-en.md >}}
+:::

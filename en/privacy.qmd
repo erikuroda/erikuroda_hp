@@ -1,0 +1,22 @@
+---
+title: Privacy Policy
+pagetitle: "Privacy Policy｜Eri KURODA"
+lang: en
+toc: false
+---
+
+## Analytics
+
+This website uses Google Analytics, a web analytics service provided by Google. Google Analytics uses cookies to collect traffic data. This data is collected anonymously and does not identify individuals.
+
+You can refuse this data collection by disabling cookies in your browser settings. For details, see the [Google Analytics Terms of Service](https://marketingplatform.google.com/about/analytics/terms/us/) and [Google Policies](https://policies.google.com/technologies/ads).
+
+## Copyright
+
+Unless otherwise noted, the content of this website is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Please cite the source when quoting or reproducing content.
+
+## Disclaimer
+
+This website assumes no responsibility for information or services provided on external sites linked from this site. While we strive to keep the information on this website accurate, we do not guarantee its accuracy or safety, and we accept no liability for any damages arising from the use of this website.
+
+Established: August 7, 2026

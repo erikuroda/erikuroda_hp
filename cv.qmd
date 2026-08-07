@@ -1,0 +1,31 @@
+---
+title: CV
+pagetitle: "CV｜Eri KURODA"
+lang: ja
+toc: true
+toc-title: 目次
+---
+
+<div class="cv-embed">
+<iframe src="https://drive.google.com/file/d/1HgZEwz0MnqfjBRVS4j6TZ8gtHi4ZXbR8/preview" allow="autoplay" title="CV (PDF)"></iframe>
+</div>
+
+## 経歴
+
+{{< include _content/career-ja.md >}}
+
+## 委員歴
+
+{{< include _content/committees-ja.md >}}
+
+## 研究資金等
+
+::: {.award-table}
+{{< include _content/funds-ja.md >}}
+:::
+
+## 受賞
+
+::: {.award-table}
+{{< include _content/awards-ja.md >}}
+:::

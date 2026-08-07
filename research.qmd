@@ -1,0 +1,28 @@
+---
+title: Research
+pagetitle: "Research｜Eri KURODA"
+lang: ja
+toc: false
+---
+
+::: {.research-card}
+### 物理環境の予測と言語化
+
+物理特性にもとづく実世界環境の予測・変化点抽出と、その言語記述に関する研究です。
+
+<span class="coming-soon">Coming soon</span>
+:::
+::: {.research-card}
+### 抽象的な行動表現（潜在行動）の獲得
+
+エージェント間で共通する潜在的な行動表現を獲得し、行動生成につなげる研究です。
+
+<span class="coming-soon">Coming soon</span>
+:::
+::: {.research-card}
+### 世界モデルにもとづくロボットの行動生成
+
+世界モデルを使って、ロボットが実世界で実際に行動できるようになることを目指す研究です。
+
+<span class="coming-soon">Coming soon</span>
+:::

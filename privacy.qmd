@@ -1,0 +1,22 @@
+---
+title: プライバシーポリシー
+pagetitle: "Privacy Policy｜Eri KURODA"
+lang: ja
+toc: false
+---
+
+## アクセス解析ツールについて
+
+当サイトでは、Googleによるアクセス解析ツール「Google Analytics」を利用しています。Google Analyticsはトラフィックデータの収集のためにCookieを使用しています。このトラフィックデータは匿名で収集されており、個人を特定するものではありません。
+
+この機能はCookieを無効にすることで収集を拒否することができますので、お使いのブラウザの設定をご確認ください。この規約に関して、詳しくは[Google Analytics利用規約](https://marketingplatform.google.com/about/analytics/terms/jp/)、[Googleポリシーと規約](https://policies.google.com/technologies/ads?hl=ja)をご覧ください。
+
+## 著作権について
+
+当サイトに掲載されている文章等のコンテンツは、特に記載のない限り [クリエイティブ・コモンズ 表示 4.0 国際ライセンス（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/deed.ja)のもとで公開しています。引用・転載の際は出典を明記してください。
+
+## 免責事項
+
+当サイトからのリンクやバナーなどで移動したサイトで提供される情報・サービス等について、当サイトは一切の責任を負いません。また、当サイトのコンテンツ・情報について、できる限り正確な情報を掲載するよう努めていますが、正確性や安全性を保証するものではありません。当サイトに掲載された内容によって生じた損害等の一切の責任を負いかねますのでご了承ください。
+
+制定日: 2026年8月7日

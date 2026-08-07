@@ -1,0 +1,408 @@
+/*-- scss:defaults --*/
+
+// 白ベース + 濃い赤アクセント（旧テーマ #cd5c5c の濃色版）
+$primary: #b04a4a;
+$body-color: #1a1a1a;
+$link-color: #b04a4a;
+$link-decoration: none;
+$font-family-sans-serif: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+$headings-font-family: "Montserrat", "Roboto", "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans", Meiryo, sans-serif;
+$font-family-monospace: "Roboto Mono", SFMono-Regular, Menlo, monospace;
+
+// ヘッダー: 白。赤に戻すなら bg=#cd5c5c / fg=rgba(255,255,255,.9) / hl=#ffffff
+$navbar-bg: #ffffff;
+$navbar-fg: #333333;
+$navbar-hl: #b04a4a;
+$footer-bg: #ffffff;
+
+/*-- scss:rules --*/
+
+// ---------- ナビバー ----------
+.navbar {
+  font-family: $headings-font-family;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
+  .navbar-brand {
+    font-weight: 700;
+    color: #222222;
+  }
+  .nav-link {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+}
+
+// ---------- 1ページ構成のセクション帯（Home / English） ----------
+.home-section {
+  width: 100%;
+  .ek-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 70px 24px;
+  }
+}
+.sec-even,
+.sec-odd {
+  background: #ffffff;
+}
+.home-section + .home-section {
+  border-top: 1px solid #e8e8e8;
+  box-shadow: inset 0 8px 8px -8px rgba(0, 0, 0, 0.05);
+}
+
+// セクション見出し（帯レイアウトの左カラム大見出し）
+.section-heading h1,
+h2.sec-title {
+  font-family: $headings-font-family;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222222;
+  margin-top: 0;
+  border: none;
+  padding-bottom: 0;
+}
+
+main.content {
+  padding-top: 0;
+}
+#quarto-content > * {
+  padding-top: 0;
+}
+
+// 個別ページ（Publications / CV / Contact）のタイトル
+.quarto-title h1.title {
+  font-family: $headings-font-family;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #222222;
+  margin: 1.5rem 0 2.25rem;
+}
+
+// 個別ページ内のカテゴリ見出し（Journal / Career / Awards & Funds など）
+main h2:not(.sec-title):not(.portrait-name) {
+  font-family: $headings-font-family;
+  color: #222222;
+  font-size: 1.45rem;
+  font-weight: 700;
+  border-bottom: 1px solid #e8e8e8;
+  box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.18);
+  padding-bottom: 0.45rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1.2rem;
+}
+
+// CV本文（md起こし）のセクション見出しとテーブル
+// h1見出し(section.level1)を本文に持つのはCVページのみ
+main section.level1 > h1 {
+  font-family: $headings-font-family;
+  color: #222222;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-bottom: 2px solid #e5e5e5;
+  padding-bottom: 0.4rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+main section.level1 {
+  table,
+  .table {
+    border: none;
+    > :not(caption) > * > * {
+      border-bottom: none;
+      box-shadow: none;
+    }
+    td:first-child {
+      color: #3a3a3a;
+      white-space: nowrap;
+      font-size: 0.9rem;
+      vertical-align: top;
+    }
+  }
+  ol li {
+    margin-bottom: 0.7rem;
+  }
+}
+.cv-contact {
+  color: #444444;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+// ---------- About（Biography）----------
+// 左（写真・名前）と右（Bio）の高さ差で下に空白ができるため、右カラムを縦中央に
+#about .grid {
+  align-items: center;
+}
+.portrait-col {
+  text-align: center;
+  img.avatar {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .portrait-name {
+    font-family: $headings-font-family;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 1rem 0 0.25rem;
+  }
+  .portrait-org {
+    color: #444444;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    a {
+      color: #444444;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  .network-icon {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    a {
+      margin: 0 0.4rem;
+      color: $primary;
+      text-decoration: none;
+      &:hover {
+        color: darken($primary, 12%);
+      }
+    }
+  }
+}
+
+// Bio下のリンク行（テキストリンク + SNSアイコン）
+.bio-links {
+  margin-top: 1rem;
+  .bio-sns {
+    margin-left: 0.6rem;
+    a {
+      margin-left: 0.55rem;
+      font-size: 1.25rem;
+      vertical-align: -0.08em;
+    }
+  }
+}
+
+// ---------- News（500pxスクロールボックス）----------
+.news-box {
+  height: 500px;
+  overflow-y: scroll;
+  padding-right: 1rem;
+  h4 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    font-family: $headings-font-family;
+    margin: 1.2rem 0 0.2rem;
+  }
+  p {
+    margin-bottom: 0.3rem;
+  }
+}
+
+// ---------- Publications ----------
+.pub-list {
+  line-height: 1.75;
+  ol li {
+    margin-bottom: 0.85rem;
+  }
+  // DOI・スライド等のアイコンリンク
+  a.ai,
+  a.fas,
+  a.fa-solid,
+  a.fa-brands,
+  a.fab {
+    text-decoration: none;
+    margin-left: 0.15rem;
+  }
+}
+
+// ---------- Awards（表形式） ----------
+.award-table {
+  table {
+    width: 100%;
+    border-top: none;
+    thead,
+    th,
+    tr {
+      border-top: none;
+    }
+  }
+  td:first-child {
+    white-space: nowrap;
+    color: #3a3a3a;
+    font-size: 0.9rem;
+  }
+  th {
+    font-family: $headings-font-family;
+    font-size: 0.9rem;
+  }
+}
+.award-links {
+  a {
+    font-size: 0.85rem;
+    margin-right: 0.7rem;
+    i {
+      font-size: 0.75rem;
+      margin-right: 0.15rem;
+    }
+  }
+}
+
+// ---------- Career ----------
+.career-list {
+  margin: 0;
+}
+.career-item {
+  display: grid;
+  grid-template-columns: 10.5rem 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ececec;
+  p {
+    margin: 0;
+  }
+}
+.career-item:last-child {
+  border-bottom: none;
+}
+.career-date {
+  color: #222222;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  padding-top: 0.15rem;
+}
+@media (max-width: 576px) {
+  .career-item {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+}
+
+.item-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+.career-org {
+  font-size: 0.9rem;
+}
+.item-date {
+  color: #5f5f5f;
+  font-size: 0.9rem;
+}
+.item-desc {
+  color: #1a1a1a;
+  font-size: 0.9rem;
+}
+
+// ---------- CVページ ----------
+.cv-embed {
+  margin: 0.5rem 0 2.75rem;
+}
+.cv-embed iframe,
+.cv-embed object {
+  width: 100%;
+  height: 58vh;
+  min-height: 420px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+.btn-cv {
+  display: inline-block;
+  background: $primary;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  margin: 0.75rem 0 1rem;
+  font-size: 0.95rem;
+  i {
+    margin-right: 0.4rem;
+  }
+  &:hover {
+    background: darken($primary, 10%);
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+// ---------- Contact ----------
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.05rem;
+  li {
+    margin-bottom: 0.75rem;
+    i {
+      color: $primary;
+      width: 1.6rem;
+      text-align: center;
+      margin-right: 0.5rem;
+    }
+  }
+}
+.map-embed {
+  margin: 1rem 0 3.5rem;
+}
+.map-embed iframe {
+  width: 100%;
+  height: 380px;
+  border: 0;
+  border-radius: 8px;
+}
+.links-col h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 1.25rem 0 0.5rem;
+}
+.links-col ul {
+  margin-bottom: 0.75rem;
+}
+
+// ---------- Research（影枠の1行カード） ----------
+.research-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  padding: 1.4rem 1.6rem;
+  margin: 0 0 1.4rem;
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0 0 0.6rem;
+  }
+  p {
+    margin-bottom: 0.75rem;
+  }
+}
+.coming-soon {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #8a8a8a;
+  background: #f2f2f2;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+}
+
+// ---------- フッター ----------
+.nav-footer {
+  background: #ffffff;
+  border-top: 1px solid #e8e8e8;
+  box-shadow: 0 -0.125rem 0.25rem 0 rgba(0, 0, 0, 0.08);
+  color: #333333;
+  font-size: 0.95rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  a {
+    color: #333333;
+    &:hover {
+      color: $primary;
+    }
+  }
+}

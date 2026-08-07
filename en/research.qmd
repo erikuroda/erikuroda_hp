@@ -1,0 +1,28 @@
+---
+title: Research
+pagetitle: "Research｜Eri KURODA"
+lang: en
+toc: false
+---
+
+::: {.research-card}
+### Prediction and Verbalization of Physical Environments
+
+Research on prediction and change-point extraction in real-world environments based on physical properties, and their verbal description.
+
+<span class="coming-soon">Coming soon</span>
+:::
+::: {.research-card}
+### Learning Abstract Action Representations (Latent Actions)
+
+Research on acquiring latent action representations shared across agents and connecting them to action generation.
+
+<span class="coming-soon">Coming soon</span>
+:::
+::: {.research-card}
+### Robot Action Generation based on World Models
+
+Research on enabling robots to act in the real world based on world models.
+
+<span class="coming-soon">Coming soon</span>
+:::
