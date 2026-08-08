@@ -1,6 +1,7 @@
 ---
 title: CV
 pagetitle: "CV｜Eri KURODA"
+description: "CV of Eri Kuroda: career, committees, funds and awards."
 lang: en
 toc: true
 toc-title: Contents

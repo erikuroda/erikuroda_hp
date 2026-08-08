@@ -12,6 +12,11 @@ website:
   site-url: https://eri-kuroda.com
   favicon: icon.png
   google-analytics: "G-QEV4HDLLG6"
+  description: "黒田彗莉（Eri Kuroda）｜東京大学 松尾・岩澤研究室 特任研究員。機械学習・深層学習を用いた世界モデルの研究に取り組んでいます。"
+  open-graph: true
+  twitter-card:
+    creator: "@erikuroda23"
+    card-style: summary
   navbar:
     title: "Eri KURODA"
     pinned: true

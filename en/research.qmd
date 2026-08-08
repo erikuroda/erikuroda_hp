@@ -1,28 +1,39 @@
 ---
 title: Research
 pagetitle: "Research｜Eri KURODA"
+description: "Research by Eri Kuroda on world models: prediction and verbalization of real-world environments, and learning abstract action representations shared across agents."
 lang: en
 toc: false
 ---
 
+I work on world models with machine learning and deep learning, focusing on prediction in the real world and on the representations that support it.
+
 ::: {.research-card}
 ### Prediction and Verbalization of Physical Environments
 
-Research on prediction and change-point extraction in real-world environments based on physical properties, and their verbal description.
+Predicting what happens next in real-world scenes, and describing the prediction in natural language.
 
-<span class="coming-soon">Coming soon</span>
+When humans understand the real world, we capture *change points* of the objects we observe (a collision, a bounce) and understand the result as a linguistic expression. Following this idea, I built prediction models that handle physical information such as object positions and velocities alongside the images themselves, so that the moment of change can be detected. The inferences made by the model are then generated as sentences such as "a green sphere is repulsed by a red cylinder", which lets us examine what the model actually predicted.
+
+**Related work**: [JACIII (2025)](https://doi.org/10.20965/jaciii.2025.p1190){target="_blank"} ・ [JACIII (2025)](https://doi.org/10.20965/jaciii.2025.p0456){target="_blank"} ・ [ICMLC2025](https://www.icmlc.org/index.html){target="_blank"} ・ [SCIS&ISIS2024](https://soft-cr.org/scis/2024/index.html){target="_blank"} ・ [DS2023](https://doi.org/10.1007/978-3-031-45275-8_29){target="_blank"} ・ [PRML2023](https://doi.org/10.1109/PRML59573.2023.10348369){target="_blank"}
 :::
+
 ::: {.research-card}
 ### Learning Abstract Action Representations (Latent Actions)
 
-Research on acquiring latent action representations shared across agents and connecting them to action generation.
+Learning action representations from observation sequences alone, and organizing them into abstract units grounded in motion semantics.
 
-<span class="coming-soon">Coming soon</span>
+Many world models focus primarily on predicting future observations, treating actions merely as inputs that drive state transitions; the semantic structure of actions is therefore not modeled explicitly. In this work, changes between consecutive observations are encoded into latent representations using an inverse dynamics model. Contrastive learning based on motion categories encourages semantically similar actions to be embedded close to each other across different agents, and category-wise center representations are then treated as discrete action units.
+
+**Related work**: [JSAI 2026](https://www.ai-gakkai.or.jp/jsai2026){target="_blank"}
 :::
-::: {.research-card}
-### Robot Action Generation based on World Models
 
-Research on enabling robots to act in the real world based on world models.
+::: {.research-card}
+### Current Interests
+
+Building on prediction in the real world and on learning action representations, I am interested in how world models can generalize to unseen objects and situations.
+
+I would also like to move beyond in-lab experiments toward validation in real environments and field studies.
 
 <span class="coming-soon">Coming soon</span>
 :::

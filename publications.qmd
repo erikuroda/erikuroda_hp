@@ -1,6 +1,7 @@
 ---
 title: Publications
 pagetitle: "Publications｜Eri KURODA"
+description: "黒田彗莉の論文・学会発表・招待講演の一覧。世界モデル、実世界環境の予測と言語化、潜在行動表現に関する研究成果。"
 lang: ja
 toc: false
 ---

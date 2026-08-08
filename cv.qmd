@@ -1,6 +1,7 @@
 ---
 title: CV
 pagetitle: "CV｜Eri KURODA"
+description: "黒田彗莉のCV。経歴・委員歴・研究資金等・受賞の一覧とPDF版。"
 lang: ja
 toc: true
 toc-title: 目次

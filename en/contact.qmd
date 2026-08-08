@@ -1,6 +1,7 @@
 ---
 title: Contact
 pagetitle: "Contact｜Eri KURODA"
+description: "Contact information and links for Eri Kuroda, the University of Tokyo."
 lang: en
 toc: false
 ---

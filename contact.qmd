@@ -1,6 +1,7 @@
 ---
 title: Contact
 pagetitle: "Contact｜Eri KURODA"
+description: "黒田彗莉への連絡先とリンク集。東京大学 松尾・岩澤研究室。"
 lang: ja
 toc: false
 ---

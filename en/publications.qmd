@@ -1,6 +1,7 @@
 ---
 title: Publications
 pagetitle: "Publications｜Eri KURODA"
+description: "Publications, conference talks and invited talks by Eri Kuroda on world models and real-world prediction."
 lang: en
 toc: false
 ---

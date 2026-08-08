@@ -1,6 +1,7 @@
 ---
 title: プライバシーポリシー
 pagetitle: "Privacy Policy｜Eri KURODA"
+description: "eri-kuroda.com のプライバシーポリシー。"
 lang: ja
 toc: false
 ---

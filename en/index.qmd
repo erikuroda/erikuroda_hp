@@ -1,6 +1,7 @@
 ---
 title: ""
 pagetitle: "Eri KURODA"
+description: "Eri Kuroda | Project Researcher at the Matsuo-Iwasawa Lab, the University of Tokyo. Research on world models with machine learning and deep learning."
 lang: en
 page-layout: full
 toc: false
@@ -27,8 +28,8 @@ I received my Ph.D. in Computer Science from Ochanomizu University in 2025.
 I am currently a project researcher (postdoc) in the Matsuo-Iwasawa Laboratory at the University of Tokyo.
 
 My research focuses on world models with machine learning and deep learning.
-Recently, I am particularly interested in enabling robots to act in the real world based on world models.
-My current work focuses on learning abstract action representations and generalizing to unseen objects and situations.
+I have worked on predicting real-world environments and verbalizing those predictions, and I am currently working on learning abstract action representations shared across agents.
+See the [Research](research.qmd) page for details.
 
 <div class="bio-links">
 <a href="cv.html">CV</a> · <i class="far fa-caret-square-right"></i> <a href="https://researchmap.jp/erikuroda?lang=en" target="_blank" rel="noopener">researchmap</a><span class="bio-sns"><a href="https://www.linkedin.com/in/erikuroda/en" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a><a href="https://x.com/erikuroda23" target="_blank" rel="noopener" aria-label="X"><i class="fab fa-x-twitter"></i></a><a href="https://orcid.org/0000-0001-6248-5056" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a><a href="https://scholar.google.co.jp/citations?user=ym-sVBkAAAAJ&hl" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a></span>

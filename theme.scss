@@ -55,7 +55,7 @@ $footer-bg: #ffffff;
 .section-heading h1,
 h2.sec-title {
   font-family: $headings-font-family;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   font-weight: 700;
   color: #222222;
   margin-top: 0;
@@ -68,6 +68,11 @@ main.content {
 }
 #quarto-content > * {
   padding-top: 0;
+}
+
+// description は検索結果用のmetaとしてのみ使い、ページ上には出さない
+#title-block-header .description {
+  display: none;
 }
 
 // 個別ページ（Publications / CV / Contact）のタイトル
@@ -371,6 +376,9 @@ main section.level1 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
   padding: 1.4rem 1.6rem;
   margin: 0 0 1.4rem;
+  &:first-of-type {
+    margin-top: 2.5rem;
+  }
   h3 {
     font-size: 1.15rem;
     font-weight: 700;

@@ -1,6 +1,7 @@
 ---
 title: ""
 pagetitle: "Eri KURODA｜黒田 彗莉"
+description: "黒田彗莉（Eri Kuroda）｜東京大学 松尾・岩澤研究室 特任研究員。機械学習・深層学習を用いた世界モデルの研究に取り組んでいます。実世界環境の予測とその言語化、抽象的な行動表現の獲得を扱ってきました。"
 lang: ja
 page-layout: full
 toc: false
@@ -27,8 +28,8 @@ toc: false
 現在は、東京大学 松尾・岩澤研究室で特任研究員をしています。
 
 機械学習・深層学習を用いた世界モデルの研究に取り組んでいます。
-最近は、世界モデルにもとづいてロボットが実世界で実際に行動できるようになることに興味があります。
-特に、抽象的な行動表現の獲得や、はじめて見る物体・状況への汎化に取り組んでいます。
+これまで実世界環境の予測とその言語化に取り組み、現在はエージェント間で共通する抽象的な行動表現の獲得を進めています。
+研究内容については[Research](research.qmd)のページをご覧ください。
 
 <div class="bio-links">
 <a href="cv.html">CV</a> · <i class="far fa-caret-square-right"></i> <a href="https://researchmap.jp/erikuroda?lang=ja" target="_blank" rel="noopener">researchmap</a><span class="bio-sns"><a href="https://www.linkedin.com/in/erikuroda" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a><a href="https://x.com/erikuroda23" target="_blank" rel="noopener" aria-label="X"><i class="fab fa-x-twitter"></i></a><a href="https://orcid.org/0000-0001-6248-5056" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a><a href="https://scholar.google.co.jp/citations?user=ym-sVBkAAAAJ&hl=ja" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a></span>
