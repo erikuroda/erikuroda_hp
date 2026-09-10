@@ -1,6 +1,11 @@
 ::: {.career-list}
 
 ::: {.career-item}
+<div class="career-date">2026/9 – Present</div>
+<div class="career-main"><span class="item-title">Conference committee member (Student Program)</span><br><span class="career-org"><a href="https://www.ai-gakkai.or.jp/" target="_blank" rel="noopener">The Japanese Society for Artificial Intelligence</a>, <a href="https://conf.ai-gakkai.or.jp/jsai2027/" target="_blank" rel="noopener">JSAI2027</a></span></div>
+:::
+
+::: {.career-item}
 <div class="career-date">2026/2 – Present</div>
 <div class="career-main"><span class="item-title">Editorial committee member</span><br><span class="career-org"><a href="https://www.ai-gakkai.or.jp/" target="_blank" rel="noopener">The Japanese Society for Artificial Intelligence</a></span></div>
 :::

@@ -1,6 +1,11 @@
 ::: {.career-list}
 
 ::: {.career-item}
+<div class="career-date">2026年9月 – 現在</div>
+<div class="career-main"><span class="item-title">大会委員（学生企画）</span><br><span class="career-org"><a href="https://www.ai-gakkai.or.jp/" target="_blank" rel="noopener">人工知能学会</a>, <a href="https://conf.ai-gakkai.or.jp/jsai2027/" target="_blank" rel="noopener">JSAI2027</a></span></div>
+:::
+
+::: {.career-item}
 <div class="career-date">2026年2月 – 現在</div>
 <div class="career-main"><span class="item-title">編集委員</span><br><span class="career-org"><a href="https://www.ai-gakkai.or.jp/" target="_blank" rel="noopener">人工知能学会</a></span></div>
 :::
